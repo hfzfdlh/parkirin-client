@@ -6,7 +6,7 @@ import Swal from 'sweetalert2/dist/sweetalert2';
 
 export const useHomeUserStore = defineStore('homeUser', {
   state: () => ({
-    BASE_URL:'https://39-tes.replikaadidas.shop',
+    BASE_URL:'http://localhost:3000',
     user_data:'',
     parking_spot:'',
     trans_list:'',

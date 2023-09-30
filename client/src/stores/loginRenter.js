@@ -4,7 +4,7 @@ import axios  from 'axios'
 
 export const useLoginRenterStore = defineStore('loginRenter', {
   state: () => ({
-    BASE_URL:'https://39-tes.replikaadidas.shop'
+    BASE_URL:'http://localhost:3000'
   }),
   getters: {
     doubleCount: (state) => state.count * 2,

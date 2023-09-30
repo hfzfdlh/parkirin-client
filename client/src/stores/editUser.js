@@ -5,7 +5,7 @@ import Swal from 'sweetalert2/dist/sweetalert2';
 
 export const useEditUserStore = defineStore('editUser', {
   state: () => ({
-    BASE_URL:'https://39-tes.replikaadidas.shop',
+    BASE_URL:'http://localhost:3000',
     name:'',
     address:'',
     photoUrl:'',

@@ -5,7 +5,7 @@ import Swal from 'sweetalert2/dist/sweetalert2';
 
 export const useLoginUserStore = defineStore('loginUser', {
   state: () => ({
-    BASE_URL:'https://39-tes.replikaadidas.shop'
+    BASE_URL:'http://localhost:3000'
   }),
   getters: {
     // doubleCount: (state) => state.count * 2,
